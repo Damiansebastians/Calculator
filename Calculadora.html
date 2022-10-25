@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="Calculator.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+</head>
+<body>
+    <h1>CALCULADORA</h1>
+    <form name="calculo">
+        Introduce el primer valor <br>
+        <input type="text" name="dato1"><br>
+        Introduce el primer valor <br>
+        <input type="text" name="dato2"><br>
+        <h2>Seleccione la operación</h2>
+        <select name="operaciones">
+            <option value="suma">Suma</option>
+            <option value="resta">Resta</option>
+            <option value="multiplicacion">Multiplicación</option>
+            <option value="division">Divsión</option>
+        </select>
+        <br><br>
+        <input type="button" value="Resultado" onclick="calcular()">
+        <br><br>
+        <input type="text" name="mensaje" size=30" disabled>
+    </form>
+    
+</body>
+</html>
